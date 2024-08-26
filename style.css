@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  color:rgb(103,103,103);
+  background:rgb(1, 1, 34);
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 50px;
+}
+
+header {
+    border-bottom:solid 2px rgb(95, 17, 158);
+    padding: 10px;
+    font-size: 33px;
+    color: rgb(95, 17, 158);
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-size: 50px;
+
+}
+
+  .principal   {
+   background: rgb(34,12,58);
+   padding-top: 50px;
+   padding-bottom: 50px ;
+   display: flex;
+   justify-content: center;
+}
+
+.texto-principal {
+  margin-right: 5%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px; 
+  }
+
+  .categoria {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+  .categoria-videos img {
+    opacity: 0.5;
+  }
+
+  .categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+  }
+
+  .categoria h2 {
+    color: rgb(95, 17, 158);
+  }
